@@ -12,7 +12,7 @@ The outfit with the most likes will be displayed on the leaderboard, which can b
 <img width="1440" alt="Screenshot 2024-07-15 at 9 55 10 PM" src="https://github.com/user-attachments/assets/6e6581a5-c2bc-4701-9e89-0c655b20f86c">
 Color analysis of facial features can provide valuable insights for various applications such as personal styling, makeup, and photography.
 ![fece](https://github.com/user-attachments/assets/0c82b375-3f63-487e-8223-a849c477c000)
-![face5](https://github.com/user-attac<img width="260" alt="Screenshot 2024-07-15 at 9 12 42 AM" src="https://github.com/user-attachments/assets/e04567b1-43e3-4685-93ee-6d6dd9c41f0c">
+
 <img width="512" alt="Screenshot 2024-07-15 at 9 12 35 AM" src="https://github.com/user-attachments/assets/a9dbaaac-acd2-4297-bbd4-3f487b4672cb">
 <img width="182" alt="Screenshot 2024-07-15 at 9 11 39 AM" src="https://github.com/user-attachments/assets/1b4f731c-adae-4b57-a79c-fed89e199f8d">
 <img width="515" alt="Screenshot 2024-07-15 at 9 11 29 AM" src="https://github.com/user-attachments/assets/4c88da87-ad18-4d49-81af-957f4ad39f5a">
