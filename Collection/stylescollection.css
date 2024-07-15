@@ -1,0 +1,125 @@
+
+.card{
+    margin: 15px auto;
+    text-align: center;
+    width: 280px;
+    padding: 10px;
+    border: 5px solid rgba(16, 206, 227, 0.324);
+    border-radius: 14px;
+    
+}
+.card:hover{
+    /* width: 310px; */
+    transform:rotate3d(20deg);
+    border: none;
+    box-shadow: 4px 8px 12px 6px #04a399;
+}
+.full-page-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 1; 
+}
+.overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(255, 255, 255, 0.5); /* adjust the transparency level here */
+}
+
+.bg-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    opacity: 0.5; /* adjust the transparency level here */
+}
+.full-page-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5); /* White overlay with 50% opacity */
+}
+.bg-img{
+    height:100%;
+}
+.card-img{
+    width: 270px;
+    border-radius: 14px;
+}
+h3{
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    color: rgba(119, 136, 153, 0.66);
+    font-size:large;
+}
+.flexbox{
+    margin-top: 40px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.flex{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background: url('header.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.header img {
+    height: 0px;
+}
+.header-logo img {
+    height: 60px; /* Adjust the height as needed */
+    margin-left: 10px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container input {
+    padding: 5px;
+    font-size: 16px;
+}
+.search-container button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.full-page-image::before{
+  background: transparent; 
+}
