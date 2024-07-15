@@ -1,0 +1,105 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    overflow: hidden;
+    
+}
+.full-page-image {
+    position: relative;
+    height: 100%;
+    width: 100%;
+    background: url('collage.jpeg') no-repeat center center fixed;
+    background-size: cover;
+}
+.full-page-image::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(255, 255, 255, 0.5); /* White overlay with 50% opacity */
+}
+.header {
+    width: 100%;
+    height: 60px;
+    background: url('header.png') no-repeat center center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+    box-sizing: border-box;
+    position: fixed;
+    top: 0;
+    z-index: 1000;
+}
+.header img {
+    height: 0px;
+}
+.header-logo img {
+    height: 60px; /* Adjust the height as needed */
+    margin-left: 10px;
+}
+.header-nav {
+    display: flex;
+    align-items: center;
+}
+.header-nav a {
+    color: white;
+    text-decoration: none;
+    margin-left: 20px;
+    font-size: 16px;
+}
+.search-container {
+    display: flex;
+    align-items: center;
+}
+.search-container input {
+    padding: 5px;
+    font-size: 16px;
+}
+.search-container button {
+    padding: 5px;
+    font-size: 16px;
+    background-color: white;
+    border: none;
+    cursor: pointer;
+}
+.collage {
+    width: 100%;
+    height: calc(100% - 60px); /* Adjust height considering the header */
+    background: url('image.jpeg') no-repeat center center;
+    position: absolute;
+    top: 60px;
+    left: 0;
+}
+.collage {
+    width: 50%; /* Adjust the width as needed */
+    height: calc(100% - 60px); /* Adjust height considering the header */
+    background-size: cover;
+    position: absolute;
+    top: 60px;
+    left: 0;
+    z-index: 0;
+}
+.welcome-text {
+    position: absolute;
+    top: 200px; /* Adjust the position as needed */
+    right: 50px; /* Adjust the position as needed */
+    color: #fff;
+    text-align: right;
+    font-size: 48px; /* Adjust the font size as needed */
+    font-weight: bold;
+    z-index: 1;
+}
+.welcome-text span {
+    display: block;
+}
+.welcome-text .welcome {
+    color: #FF1493; /* Color for "WELCOME" */
+}
+.welcome-text .to-myntra {
+    color: #FFA500; /* Color for "to Myntra" */
+}
