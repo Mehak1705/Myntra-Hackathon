@@ -29,5 +29,6 @@ Color analysis of facial features can provide valuable insights for various appl
 <img width="277" alt="Screenshot 2024-07-15 at 9 10 21 AM" src="https://github.com/user-attachments/assets/8742f9a6-6c97-4121-a2ff-867122e696e8">
 
 
+<img width="1172" alt="Screenshot 2024-07-15 at 10 35 59 PM" src="https://github.com/user-attachments/assets/05addb54-b267-433e-9ead-0e6e497a3a78">
 
 
